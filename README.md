@@ -1,7 +1,8 @@
 # bufpool
 
-[![Build Status](https://travis-ci.org/vmihailenco/bufpool.svg)](https://travis-ci.org/vmihailenco/bufpool)
-[![GoDoc](https://godoc.org/github.com/vmihailenco/bufpool?status.svg)](https://godoc.org/github.com/vmihailenco/bufpool)
+[![GoDoc](https://godoc.org/github.com/johnbenedictyan/bufpool?status.svg)](https://godoc.org/github.com/johnbenedictyan/bufpool)
+
+Maintained version of the [original repo](https://github.com/vmihailenco/bufpool)
 
 bufpool is an implementation of a pool of byte buffers with anti-memory-waste protection. It is based on the code and ideas from these 2 projects:
 - https://github.com/libp2p/go-buffer-pool
@@ -12,7 +13,7 @@ bufpool consists of global pool of buffers that have a capacity of a power of 2 
 # Installation
 
 ``` go
-go get github.com/vmihailenco/bufpool
+go get github.com/johnbenedictyan/bufpool
 ```
 
 # Usage

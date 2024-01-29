@@ -3,7 +3,7 @@ package bufpool_test
 import (
 	"fmt"
 
-	"github.com/vmihailenco/bufpool"
+	"github.com/johnbenedictyan/bufpool"
 )
 
 var jsonPool bufpool.Pool

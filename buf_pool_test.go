@@ -3,8 +3,8 @@ package bufpool_test
 import (
 	"testing"
 
+	"github.com/johnbenedictyan/bufpool"
 	"github.com/stretchr/testify/require"
-	"github.com/vmihailenco/bufpool"
 )
 
 func TestGetZero(t *testing.T) {

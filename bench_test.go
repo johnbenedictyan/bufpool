@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/vmihailenco/bufpool"
+	"github.com/johnbenedictyan/bufpool"
 )
 
 func BenchmarkNoPool(b *testing.B) {

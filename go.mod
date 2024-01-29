@@ -1,4 +1,4 @@
-module github.com/vmihailenco/bufpool
+module github.com/johnbenedictyan/bufpool
 
 go 1.13
 
